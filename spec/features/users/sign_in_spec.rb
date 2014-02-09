@@ -56,27 +56,4 @@ require "spec_helper"
     page.current_url.should == sign_in_url
   end
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 end

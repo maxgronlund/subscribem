@@ -1,3 +1,4 @@
+
 <h2>Sign in</h2>
 <%= form_for @user, :url => sessions_url do |f| %>
   <p>
@@ -12,3 +13,5 @@
     <%= f.submit "Sign in" %>
   </p>
 <% end %>
+
+<%= link_to "New User?", user_sign_up_url %>
