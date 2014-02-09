@@ -10,11 +10,11 @@ require "spec_helper"
       scenario "signs in as an account owner successfully" do
       visit root_url
       page.current_url.should == sign_in_url
-      #fill_in "Email", :with => account.owner.email
-      #fill_in "Password", :with => "password"
-      #click_button "Sign in"
-      #page.should have_content("You are now signed in.")
-      #page.current_url.should == root_url
+      fill_in "Email", :with => account.owner.email
+      fill_in "Password", :with => "password"
+      click_button "Sign in"
+      page.should have_content("You are now signed in.")
+      page.current_url.should == root_url
     end
   end
 end
