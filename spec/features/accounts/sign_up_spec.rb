@@ -59,7 +59,4 @@ feature "Accounts" do
     page.should have_content("Sorry, your account could not be created.")
     page.should have_content("Subdomain is not allowed. Please choose another subdomain.")
   end
-  
-  
-  
 end
